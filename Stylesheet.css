@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+#logo{
+    margin: 10px 10px;
+}
+
+#logo img{
+    height: 56px;
+    margin: 0px 0px;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 710px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#home::before{
+    content: "";
+    background: url(https://www.bpimaging.com/assets/uploads/2015/02/11897_096.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.55;
+}
+
+#home h1{
+    text-align: center;
+}
+
+#home p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: burlywood;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.centre{
+    text-align: center;
+}
+.secondary centre{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: rgb(219, 211, 208);
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
